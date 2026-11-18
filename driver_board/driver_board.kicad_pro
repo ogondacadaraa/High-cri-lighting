@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "filename": "driver_board.kicad_pro",
+    "version": 3
+  },
+  "sheets": [
+    [
+      "0ee78d8a-dac8-5ded-b3f3-1e91dc4dd9ce",
+      "Root"
+    ],
+    [
+      "02e7048d-45d1-5d86-882e-1dc9f2b32696",
+      "Power"
+    ],
+    [
+      "ea658b1d-5c38-5f25-94de-29c083a442ac",
+      "MCU & UI"
+    ],
+    [
+      "cdd4edf7-6e1d-59f4-af20-f01a5148aae9",
+      "Zone 1"
+    ],
+    [
+      "75a74f60-97b2-503e-8bc4-271813f8d446",
+      "Zone 2"
+    ],
+    [
+      "70164470-021a-56f6-8e18-a08ec0888c2e",
+      "Zone 3"
+    ],
+    [
+      "42bc4b8c-913f-5464-84c5-2ed77764ecb2",
+      "Zone 4"
+    ]
+  ],
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "boards": [],
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "text_variables": {}
+}

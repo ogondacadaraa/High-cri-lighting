@@ -1,0 +1,428 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0ee78d8a-dac8-5ded-b3f3-1e91dc4dd9ce")
+	(paper "A3")
+	(title_block
+		(title "Driver board")
+		(date "2026-11-08")
+		(rev "0.1")
+		(company "High quality lighting")
+	)
+	(lib_symbols)
+	(sheet
+		(at 20.32 45.72)
+		(size 60.96 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02e7048d-45d1-5d86-882e-1dc9f2b32696")
+		(property "Sheetname" "Power"
+			(at 20.32 45.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 20.32 71.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "driver_board"
+				(path "/0ee78d8a-dac8-5ded-b3f3-1e91dc4dd9ce"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 45.72)
+		(size 60.96 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea658b1d-5c38-5f25-94de-29c083a442ac")
+		(property "Sheetname" "MCU & UI"
+			(at 101.6 45.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 101.6 71.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "driver_board"
+				(path "/0ee78d8a-dac8-5ded-b3f3-1e91dc4dd9ce"
+					(page "3")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 40.64 111.76)
+			(xy 35.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ce895f-b76c-5156-a86c-a6d9bdad5922")
+	)
+	(global_label "DRV_NSS1"
+		(shape bidirectional)
+		(at 35.56 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a382553-2b85-5bab-bb93-a8636f21f782")
+	)
+	(sheet
+		(at 40.64 101.6)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cdd4edf7-6e1d-59f4-af20-f01a5148aae9")
+		(property "Sheetname" "Zone 1"
+			(at 40.64 100.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "zone_driver.kicad_sch"
+			(at 40.64 122.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NSS" input
+			(at 40.64 111.76 180)
+			(uuid "0df92070-d98a-599f-87bc-dfe12dada3ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "driver_board"
+				(path "/0ee78d8a-dac8-5ded-b3f3-1e91dc4dd9ce"
+					(page "4")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76)
+			(xy 96.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27862624-d4a7-52de-b828-03108a2f5918")
+	)
+	(global_label "DRV_NSS2"
+		(shape bidirectional)
+		(at 96.52 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "784a1bbc-7081-5e95-877b-dbf8631132ca")
+	)
+	(sheet
+		(at 101.6 101.6)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "75a74f60-97b2-503e-8bc4-271813f8d446")
+		(property "Sheetname" "Zone 2"
+			(at 101.6 100.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "zone_driver.kicad_sch"
+			(at 101.6 122.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NSS" input
+			(at 101.6 111.76 180)
+			(uuid "fe413178-bc8a-55f8-9823-3faaaae961e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "driver_board"
+				(path "/0ee78d8a-dac8-5ded-b3f3-1e91dc4dd9ce"
+					(page "5")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 162.56 111.76)
+			(xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6255eeaf-6393-5a43-ad06-8fab2f2dbbd6")
+	)
+	(global_label "DRV_NSS3"
+		(shape bidirectional)
+		(at 157.48 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81c8329f-7c10-5883-a16f-58157145736b")
+	)
+	(sheet
+		(at 162.56 101.6)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70164470-021a-56f6-8e18-a08ec0888c2e")
+		(property "Sheetname" "Zone 3"
+			(at 162.56 100.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "zone_driver.kicad_sch"
+			(at 162.56 122.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NSS" input
+			(at 162.56 111.76 180)
+			(uuid "647549f7-a2f7-5126-b91a-3f43450b1af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "driver_board"
+				(path "/0ee78d8a-dac8-5ded-b3f3-1e91dc4dd9ce"
+					(page "6")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 223.52 111.76)
+			(xy 218.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f76d84-0399-55ce-9386-8c0d3d97b432")
+	)
+	(global_label "DRV_NSS4"
+		(shape bidirectional)
+		(at 218.44 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f139bdc6-4af1-55a4-aa10-abf89185028e")
+	)
+	(sheet
+		(at 223.52 101.6)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42bc4b8c-913f-5464-84c5-2ed77764ecb2")
+		(property "Sheetname" "Zone 4"
+			(at 223.52 100.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "zone_driver.kicad_sch"
+			(at 223.52 122.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NSS" input
+			(at 223.52 111.76 180)
+			(uuid "58450abb-8be9-5634-b4bb-034f592841d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "driver_board"
+				(path "/0ee78d8a-dac8-5ded-b3f3-1e91dc4dd9ce"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
